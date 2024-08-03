@@ -1,0 +1,79 @@
+
+
+
+.thumbnail{
+width: 100%;
+}
+
+
+.thumbnail-row{
+  position: relative;
+  margin-bottom: 0;
+}
+.video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 4px;
+  border-radius: 2px;
+
+}
+
+.video-grid{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+  
+
+
+.title{
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.Author, 
+.stats  
+{
+  font-family: Roboto, Arial;
+  color: gray;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+      
+}
+
+.Author{
+  margin-bottom: 3px;
+}      
+
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+    
+}
+
+.profile-picture{
+
+  width: 36px;
+  border-radius: 50px;
+  margin-top: 8px;
+  
+}
