@@ -1,0 +1,1 @@
+NOTE: This is just a practice web dev using HTML and CSS. This is a YouTube Clone website practice by SuperSimpleDev. This is the link for those who want to learn HTML and CSS beginner tutorial. https://www.youtube.com/watch?v=G3e-cpL7ofc&list=LL&index=4&t=15090s I highly recommend for beginners to use this as practice. Thank you.
